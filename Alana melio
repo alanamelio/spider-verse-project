@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representation in Hollywood: Into the Spider-Verse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Representation in Hollywood: Into the Spider-Verse</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#importance">Why It Matters</a></li>
+                <li><a href="#stakeholders">Stakeholders</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Exploring Diversity in Hollywood</h2>
+        <p>Learn how *Spider-Man: Into the Spider-Verse* changes the narrative on representation in film.</p>
+        <button onclick="location.href='#about'">Learn More</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>This project explores the representation of diversity in Hollywood, with a focus on the groundbreaking film <em>Spider-Man: Into the Spider-Verse</em>.</p>
+        <p>Key questions:</p>
+        <ul>
+            <li>How does the film challenge traditional Hollywood norms?</li>
+            <li>What historical changes led to more diversity?</li>
+            <li>What impact does diversity in movies have on audiences and the industry?</li>
+        </ul>
+        <img src="spider-verse.jpg" alt="Miles Morales in Spider-Man: Into the Spider-Verse">
+    </section>
+
+    <!-- History Section -->
+    <section id="history">
+        <h2>History of Representation in Hollywood</h2>
+        <p>Hollywood's history has been marked by both progress and setbacks in diversity. From early stereotypes to modern breakthroughs, explore the timeline of representation.</p>
+        <ul>
+            <li><strong>1950s-1970s:</strong> Limited roles for minorities and women.</li>
+            <li><strong>1980s-1990s:</strong> Rise of diverse voices, but still underrepresented.</li>
+            <li><strong>2000s-Present:</strong> Increased focus on inclusion and films like <em>Into the Spider-Verse</em>.</li>
+        </ul>
+    </section>
+
+    <!-- Why It Matters -->
+    <section id="importance">
+        <h2>Why Inclusive Storytelling Matters</h2>
+        <div>
+            <h3>Emotional</h3>
+            <p>Fans connect deeply with Miles Morales as a relatable and inspiring hero.</p>
+        </div>
+        <div>
+            <h3>Logical</h3>
+            <p>Studies show diverse movies perform better at the box office and foster empathy.</p>
+        </div>
+        <div>
+            <h3>Ethical</h3>
+            <p>Industry leaders emphasize the importance of representation for equity and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Stakeholders Section -->
+    <section id="stakeholders">
+        <h2>Key Stakeholders</h2>
+        <ul>
+            <li><strong>Hollywood Studios:</strong> How diversity affects financial success.</li>
+            <li><strong>Filmmakers and Actors:</strong> Opportunities for creatives from underrepresented backgrounds.</li>
+            <li><strong>Audiences:</strong> The power of seeing themselves on screen.</li>
+        </ul>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Explore further reading and research:</p>
+        <ul>
+            <li><a href="https://www.nytimes.com/2018/12/14/movies/spider-man-into-the-spider-verse.html">How <em>Spider-Man: Into the Spider-Verse</em> Broke Every Rule</a></li>
+            <li><a href="https://socialsciences.ucla.edu/hollywood-diversity-report-2023">Hollywood Diversity Report 2023</a></li>
+            <li><a href="https://inclusion.usc.edu/reports">USC Annenberg Inclusion Initiative</a></li>
+            <li><a href="https://www.theguardian.com/film/2018/dec/20/spider-man-into-the-spider-verse-black-representation">The Case for a Black Spider-Man</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Let us know!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Representation in Hollywood Project</p>
+    </footer>
+</body>
+</html>
+
